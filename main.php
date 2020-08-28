@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+   
         
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -33,8 +30,7 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body>
+   
        
        
         <!--================Header Area =================-->
@@ -57,9 +53,7 @@
                 </div>
             </div> -->
 
-            <!--注入 头部框架 header.html-->
-            <iframe name="header_frame" marginwidth=0 marginheight=0 width=100% height=50 src="header.html" frameborder=0></iframe>
-
+       
 
 
             <div class="main_menu_area" style="margin-top: -6px">
@@ -108,9 +102,7 @@
                      </nav>
                 </div>  -->
             
-            <!--引入导航栏框架-->
-            <iframe  name="nev_frame" marginwidth=0 marginheight=0 width=100% height=100 src="nev.html" frameborder=0></iframe>
-
+        
            </div>
        </header>   
 
@@ -711,7 +703,7 @@
         <!--================End Clients Area =================-->
         
         <!--================Subscrib Form Area =================-->
-        <section class="subscribe_area">
+       <!--  <section class="subscribe_area">
             <div class="container">
                 <div class="pull-left">
                     <h4>今天就订阅我们的电子邮件通讯吧！</h4>
@@ -725,7 +717,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--================End Subscrib Form Area =================-->
         
         <!--================Footer Area =================-->
@@ -846,8 +838,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> 上�
             </div>
         </footer> -->
 
-        <!--引入底部版权栏 footer.html-->
-        <iframe name="footer_iframe" marginwidth=0 marginheight=0 src="footer.html" width=100% height=552 frameborder=0></iframe>
+
 
         <!--================End Footer Area =================--> 
         
@@ -878,5 +869,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> 上�
        <!--  <script src="js/gmaps.min.js"></script> -->
         
         <script src="js/theme.js"></script> <!--主轮播图JS-->
-    </body>
+   
 </html>

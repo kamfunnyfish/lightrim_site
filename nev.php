@@ -49,7 +49,7 @@
                                 </li>
                                 <li><a href="#">服务案例</a></li>
                                 <li><a href="#">公司简介</a></li>
-                                <li><a href="#">新闻中心</a></li>
+                                <li><a href="./news.html">新闻中心</a></li>
                                 <li><a href="#">联系我们</a></li>
                                 <!-- <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li> -->
                             </ul>
