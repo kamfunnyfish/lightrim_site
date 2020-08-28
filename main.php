@@ -1,3 +1,13 @@
+<?php
+/**
+ * @copyright (C)2016-2020 Hnaoyun Inc.
+ * @author liujianqiang
+ * @email mrbrocade@163.com
+ * @date 2020年08月28日
+ *  官网主体 前端
+ */
+
+?>
 <!DOCTYPE html>
 <html lang="en">
    

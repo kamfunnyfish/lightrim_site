@@ -1,3 +1,13 @@
+<?php
+/**
+ * @copyright (C)2016-2020 Hnaoyun Inc.
+ * @author liujianqiang
+ * @email mrbrocade@163.com
+ * @date 2020年08月28日
+ *  官网新闻中心 前端
+ */
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +17,7 @@
         
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Construction - WeBuilder Template</title>
+        <title>新闻中心 -上海廉容自动化技术有限公司赣州分公司</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -40,7 +50,7 @@
        
        
         <!--================Header Area =================-->
-        <header class="main_header_area">
+       <!--  <header class="main_header_area">
             <div class="header_top_area">
                 <div class="container">
                     <div class="pull-left">
@@ -61,7 +71,7 @@
             <div class="main_menu_area">
                 <div class="container">
                     <nav class="navbar navbar-default">
-                        <!-- Brand and toggle get grouped for better mobile display -->
+                      
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -72,7 +82,7 @@
                             <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
                         </div>
 
-                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown submenu">
@@ -98,22 +108,27 @@
                                 <li><a href="#">Contact</a></li>
                                 <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li>
                             </ul>
-                        </div><!-- /.navbar-collapse -->
+                        </div>
                     </nav>
                 </div>
             </div>
-        </header>
+        </header> -->
+        <!--引入头部文件-->
+       <?php include 'header.php'; ?>
+
+        <!--引入导航文件-->
+        <?php include 'nev.php'; ?>
         <!--================Header Area =================-->
         
         <!--================Banner Area =================-->
         <section class="banner_area" style="background: url(img/banner/single-page-banner3.jpg); background-size: cover">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h4>Blog Details</h4>
-                    <ul>
+                    <h4>新闻中心</h4>
+                    <!-- <ul>
                         <li><a href="index.html">Home</a></li>
                         <li class="active"><a href="blog-details.html">Blog detail with right sidebar</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </section>
@@ -127,21 +142,21 @@
                         <div class="blog_details_img">
                             <img src="img/blog/blog-details-1.jpg" alt="">
                             <div class="b_date">
-                                <h3>14</h3>
-                                <h5>AUGUST, 2017</h5>
+                                <h3>28</h3>
+                                <h5>2020.08</h5>
                             </div>
                         </div>
                         <div class="blog_d_text">
-                            <h6>Posted by <a href="#">Admin</a><span><i class="fa fa-eye" aria-hidden="true"></i>1201</span></h6>
-                            <a href="#"><h3>But I must explain to you how all this mistaken idea</h3></a>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
-                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
-                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-                            <div class="quote_text">
+                            <h6>发布 <a href="#">Admin</a><span><i class="fa fa-eye" aria-hidden="true"></i>查看人数1225</span></h6>
+                            <a href="#"><h3>小水电在反垄断竞争中不断成长壮大和四省调研报告内容提要</h3></a>
+                            <p>新中国成立50年来，特别是改革开放20年来，小水电从无到有、从小到大，从单站发电到联网运行，从建设县电网到建设农村水电初级电气化，从小、散、弱到资产重组、结构调整、制度创新和建设以改善生态、保护环境，促进农村经济与社会全面发展，达到和超过小康水平为目标的中国水电农村电气化，发生了翻天覆地的变化。小水电已由建国初期星星点点的农村“夜明珠”，发展到现在发电装机超过3000万千瓦，年发电量达到1000亿千瓦时，担负着全国近1/2地域、1/3县、1/4人口供电任务的以中小水电为主体的水利地方电业。.</p>
+                            <p>  小水电源于农村，源于消除贫困，是中西部地区、少数民族地区和东部山区人民的一大创举，始终得到党和国家领导人的高度重视、亲切关怀，是不断冲破束缚生产力发展的生产关系，促进农村社会生产力解放和发展的改革先行者；我国开发小水电，使用清洁廉价可再生绿色能源建设有中国特色农村电气化的经验，得到国际社会的高度评价和广泛赞扬，为推广中国的经验，联合国将国际小水电中心设在中国，成为设在我国迄今唯一的一个联合国机构，因此它又是开放的先锋。它的发展，时刻也没有离开过党和国家“坚持两条腿走路”、“充分调动和发挥多个积极性”等方针政策的指引。回顾小水电的发展历程，出现过多次大的困难，如60年代的“一平二调”，70年代的“大电到小电倒”，80年代的所谓“联营”、“代管”，以及90年代的所谓“全面代管”、“控股股改”，无一不是依靠党和国家方针政策的鼓励、支持和指引，通过反对垄断、克服困难、接受磨练，进一步补充完善并坚持执行行之有效的中小水电电气化建设方针政策，而走出困境，并实现新的突破，迈上一个个新的台阶的！ </p>
+                           
+                            <!-- <div class="quote_text">
                                 <p><i class="fa fa-quote-left" aria-hidden="true"></i>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui.</p>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="image_text">
+                        <!-- <div class="image_text">
                             <div class="media">
                                 <div class="media-left">
                                     <img src="img/blog/blog-d-s-1.jpg" alt="">
@@ -166,25 +181,25 @@
                                 <li><a href="#">MockUp,</a></li>
                                 <li><a href="#">Appsy</a></li>
                             </ul>
-                        </div>
+                        </div> -->
                         <div class="like_post">
-                            <h3>You may also like</h3>
+                            <h3>你可能也喜欢</h3>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="like_post_item">
                                         <a href="#"><img src="img/blog/like-post-1.jpg" alt=""></a>
-                                        <h5>But I must explain to you how all this mistaken idea</h5>
+                                        <h5>其他的一些新闻。。。。</h5>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="like_post_item">
                                         <a href="#"><img src="img/blog/like-post-1.jpg" alt=""></a>
-                                        <h5>But I must explain to you how all this mistaken idea</h5>
+                                        <h5>其他的一些新闻。。。。</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="comment_list">
+                        <!-- <div class="comment_list">
                             <h3>3 comments</h3>
                             <div class="comment_list_inner">
                             	<div class="media">
@@ -220,9 +235,9 @@
 									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 									<a class="cm_reply" href="#"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a>
 								</div>
-                            </div>
-                        </div>
-                        <div class="comment_form_area">
+                            </div> 
+                        </div>-->
+                       <!--  <div class="comment_form_area">
                             <h3>Leave a reply</h3>
                             <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                                 <div class="form-group col-md-6">
@@ -238,13 +253,13 @@
                                     <button type="submit" value="submit" class="btn submit_btn form-control">Post Comment</button>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-md-4">
                         <div class="sidebar_area">
                             <aside class="right_widget r_post_widget">
                                 <div class="r_w_title">
-                                    <h3>Trending Post</h3>
+                                    <h3>热门文章</h3>
                                 </div>
                                 <div class="r_post_inner">
                                     <div class="r_post_item">
@@ -261,7 +276,7 @@
                                     </div>
                                 </div>
                             </aside>
-                            <aside class="right_widget r_social_widget">
+                           <!--  <aside class="right_widget r_social_widget">
                                 <div class="r_w_title">
                                     <h3>we are social</h3>
                                 </div>
@@ -278,7 +293,7 @@
                                     <h3>twitter feed</h3>
                                 </div>
                                 <div class="tweets_feed"></div>
-                            </aside>
+                            </aside> -->
                         </div>
                     </div>
                 </div>
@@ -287,7 +302,11 @@
         <!--================End Blog Details Area =================-->
         
         <!--================Footer Area =================-->
-        <footer class="footer_area">
+
+        <!--引入底部版权-->
+        <?php include 'footer.php' ?>
+
+        <!-- <footer class="footer_area">
             <div class="footer_widgets_area">
                 <div class="container">
                     <div class="row footer_widgets_inner">
@@ -374,13 +393,12 @@
                 </div>
             </div>
             <div class="footer_copy_right">
-                <div class="container">
-                    <h4><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <div cla
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></h4>
+</h4>
                 </div>
             </div>
-        </footer>
+        </footer> -->
         <!--================End Footer Area =================-->
         
         

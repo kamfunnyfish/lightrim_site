@@ -1,3 +1,13 @@
+<?php
+/**
+ * @copyright (C)2016-2020 Hnaoyun Inc.
+ * @author liujianqiang
+ * @email mrbrocade@163.com
+ * @date 2020年08月28日
+ *  官网公司简介 前端
+ */
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +17,7 @@
         
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Construction - WeBuilder Template</title>
+        <title>公司简介 - 上海廉容自动化技术有限公司赣州分公司</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -40,7 +50,7 @@
        
        
         <!--================Header Area =================-->
-        <header class="main_header_area">
+       <!--  <header class="main_header_area">
             <div class="header_top_area">
                 <div class="container">
                     <div class="pull-left">
@@ -57,11 +67,19 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="main_menu_area">
+            </div> -->
+
+            <!--引入头部文件-->
+            <?php  include 'header.php'; ?>
+
+
+             <!--引入导航文件-->
+            <?php  include 'nev.php'; ?>
+
+        <!--     <div class="main_menu_area">
                 <div class="container">
                     <nav class="navbar navbar-default">
-                        <!-- Brand and toggle get grouped for better mobile display -->
+                        
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -72,7 +90,7 @@
                             <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
                         </div>
 
-                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown submenu">
@@ -98,22 +116,20 @@
                                 <li><a href="#">Contact</a></li>
                                 <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li>
                             </ul>
-                        </div><!-- /.navbar-collapse -->
+                        </div>
                     </nav>
                 </div>
             </div>
-        </header>
+        </header> -->
         <!--================Header Area =================-->
         
         <!--================Banner Area =================-->
         <section class="banner_area" style="background: url(img/banner/single-page-banner2.jpg); background-size: cover">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h4>Service Single Page</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="service-single.html">Service single page</a></li>
-                    </ul>
+                    <h4>公司简介</h4>
+                    <h4 class="banner_inner_text">全国首批水电站自动化云控服务提供商</h4>
+                 
                 </div>
             </div>
         </section>
@@ -124,29 +140,32 @@
             <div class="chose_left_text">
                 <div class="chose_text_inner">
                     <div class="main_b_title">
-                        <h2>Why <br class="title_br"> Choose Us?</h2>
-                        <h6>Play Welcome Video</h6>
+                        <h2>为何 <br class="title_br"> 选择我们?</h2>
+                        <h6>欢迎打开我们的视频</h6>
                     </div>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                    <ul>
+                    <p>上海廉容自动化技术有限公司赣州分公司位于赣州经济技术开发区，是专业从事水力发电厂（站）、远程操控自动化系统及自动化仪器仪表的软硬件研发、制造、销售、安装、服务为一体的技术型企业。
+    公司拥有自主研发生产的32位嵌入式励磁控制器、步进电机水轮机调速装置、远程操控自动化系统、水轮机辅助控制系统、微机保护装置、自动化测试仪器仪表及自动化元件等系列产品。具有超前理念、布局合理、功能齐全、稳定可靠、扩展灵活等特点。随着科学技术的不断发展，我们将不断创新、及时更新、完善服务来答谢新老客户对我公司一直以来的大力支持和厚爱。
+    公司坚持以市场为导向，以技术为核心的经营战略，建立遍及全国、面向世界的销售网络，为国内外用户提供安全、可靠、稳定的产品和超值的售后服务。 </p>
+                   <!--  <ul>
                         <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>We Are Creative</a></li>
                         <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>Honest And Dependable</a></li>
                         <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>Quality Commitment</a></li>
                         <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>We Are Always Improving</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
             <div class="chose_video_right">
                 <div class="chose_video_inner">
-                    <img src="img/video-1.jpg" alt="">
-                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=5GL9JoH4Sws"><img src="img/icon/video-puse.png" alt=""></a>
+                    <!-- <img src="img/video-1.jpg" alt="">
+                    <a class="popup-youtube" href="https://v.youku.com/v_show/id_XNDQ4MDk0Njk4NA==.html?spm=a1z3jc.11711052.0.0&isextonly=1"><img src="img/icon/video-puse.png" alt=""></a> -->
+                    <iframe height=548 width=800 src='https://player.youku.com/embed/XNDQ4MDk0Njk4NA==' frameborder=0 'allowfullscreen'></iframe>
                 </div>
             </div>
         </section>
         <!--================End Why Chose Us Area =================-->
         
         <!--================Others Service Area =================-->
-        <section class="other_service_area">
+       <!--  <section class="other_service_area">
             <div class="container">
                 <h4 class="project_title">Our Other Services</h4>
                 <div class="service2_inner other_service_slider owl-carousel">
@@ -197,7 +216,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--================End Others Service Area =================-->
         
         <!--================Service Single Area =================-->
@@ -205,7 +224,7 @@
             <div class="container">
                 <div class="service_single_inner">
                     <div class="project_single_slider">
-                        <div id="slider" class="flexslider">
+                     <!--    <div id="slider" class="flexslider">
                             <ul class="slides">
                                 <li><img src="img/project/project-single-slider/project-s-2.jpg" alt=""></li>
                                 <li><img src="img/project/project-single-slider/project-s-2.jpg" alt=""></li>
@@ -237,12 +256,27 @@
                                 <a href="#" class="flex-next"><i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="row s_text_inner">
                         <div class="col-md-6">
                             <div class="left_service_desc">
-                                <h4 class="project_title">Service Description</h4>
-                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed semper, lacus sed feugiat dictum, tellus ipsum auctor quam, non faucibus dui nisl et elit. Morbi eu interdum velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit consequatur?</p>
+                                <h4 class="project_title">公司介绍</h4>
+                                <p> 廉容是行业内的领先企业，致力将自动化带去每一个电站构建水电行业的数字世界，我们在水电自动化领域为顾客提供高效、节能、安全可靠的产品、解决方案与服务、持续为客户创造价值。廉容坚持围绕客户需求持续创新、加大对产品的不断研发，做到精益求精，厚积薄发，推动水电行业的发展。
+
+</p><br>
+                            </div>
+
+
+                            <div class="left_service_desc">
+                                <h4 class="project_title">我的团队精神</h4>
+                                <p> 企业文化：诚信立足，创新致远。<br>
+                                    企业使命：承载社会使命，助力经济发展。<br>
+                                    企业背景：建设成为掌握核心技术的世界领先水电企业。<br>
+                                    基本理念：承载个人理想，追求社会进步，促进社会发展。<br>
+                                    经营理念：创新产品技术，创建客户价值。<br>
+                                    质量理念：以科技为先导，不断创新，为客户提供高性价比、高可靠性的产品和最满意的服务。<br>
+
+</p>
                                 <ul>
                                     <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>We are responsible</a></li>
                                     <li><a href="#"><i class="fa fa-wrench" aria-hidden="true"></i>We take everything under control</a></li>
@@ -252,9 +286,9 @@
                         </div>
                         <div class="col-md-6">
                             <div class="our_skill_inner">
-                                <h4 class="project_title">Service Description</h4>
+                                <h4 class="project_title">廉容自动化年报:</h4>
                                 <div class="single_skill">
-                                    <h3>Repairing</h3>
+                                    <h3>2019销售额3000万</h3>
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                                             <div class="progress_parcent"><span class="counter">90</span>%</div>
@@ -262,26 +296,26 @@
                                     </div>
                                 </div>
                                 <div class="single_skill">
-                                    <h3>Painting</h3>
+                                    <h3>2019销售量500台</h3>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress_parcent"><span class="counter">80</span>%</div>
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress_parcent"><span class="counter">100</span>%</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="single_skill">
-                                    <h3>Gardening</h3>
+                                    <h3>2020销售额9000万</h3>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress_parcent"><span class="counter">70</span>%</div>
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress_parcent"><span class="counter">67</span>%</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="single_skill">
-                                    <h3>Repairing</h3>
+                                    <h3>2019销售量1500台</h3>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress_parcent"><span class="counter">80</span>%</div>
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress_parcent"><span class="counter">73</span>%</div>
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +334,7 @@
         <!--================End Service Single Area =================-->
         
         <!--================Our Latest Project Area =================-->
-        <section class="our_latest_project">
+        <!-- <section class="our_latest_project">
             <div class="container">
                 <h3 class="out_title">Our Latest projects</h3>
                 <div class="our_latest_slider owl-carousel">
@@ -348,25 +382,33 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--================End Our Latest Project Area =================-->
         
         <!--================Get Quote Area =================-->
         <section class="get_quote_area project_contact">
             <div class="container">
                 <div class="pull-left">
-                    <h3>Save Your Money </h3>
-                    <h4>Call us today or Contact us to get started your project.. </h4>
+                    <h3>选择廉容自动化 </h3>
+                    <h4>今天就给我们打电话或者联系我们开始你的项目。.. </h4>
                 </div>
                 <div class="pull-right">
-                    <a class="get_btn_black" href="#">Contact Us</a>
+                    <a class="get_btn_black" href="#">联系客服</a>
                 </div>
             </div>
         </section>
         <!--================End Get Quote Area =================-->
         
         <!--================Footer Area =================-->
-        <footer class="footer_area">
+
+
+            <!--==引入底部版权文件 ==-->
+
+            <?php  include 'footer.php'; ?>
+
+            
+
+        <!-- <footer class="footer_area">
             <div class="footer_widgets_area">
                 <div class="container">
                     <div class="row footer_widgets_inner">
@@ -454,12 +496,12 @@
             </div>
             <div class="footer_copy_right">
                 <div class="container">
-                    <h4><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <h4>
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></h4>
+</h4>
                 </div>
             </div>
-        </footer>
+        </footer> -->
         <!--================End Footer Area =================-->
         
         

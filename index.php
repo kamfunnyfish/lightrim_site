@@ -1,3 +1,14 @@
+<?php
+/**
+ * @copyright (C)2016-2020 Hnaoyun Inc.
+ * @author liujianqiang
+ * @email mrbrocade@163.com
+ * @date 2020年08月27日
+ *  官网首页 前端
+ */
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -62,7 +73,7 @@
             <?php include 'header.php';?>
 
 
-            <div class="main_menu_area" >
+            <div class="main_menu_area" ">
             <!-- 
 
                 <div class="container">
@@ -128,8 +139,8 @@
          
 
      <!--引入主体 main.html-->
-       <!--  <iframe name="main_frame" marginwidth=0 marginheight=0 src="main.html" width=100% height=4950 frameborder=0></iframe> -->
-        <?php include 'main.php';?>
+        <iframe name="main_frame" marginwidth=0 marginheight=0 src="main.php" width=100% height=4950 frameborder=0></iframe>
+    
 
 
         <!--================Subscrib Form Area =================-->

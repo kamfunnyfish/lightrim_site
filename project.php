@@ -1,3 +1,14 @@
+<?php
+/**
+ * @copyright (C)2016-2020 Hnaoyun Inc.
+ * @author liujianqiang
+ * @email mrbrocade@163.com
+ * @date 2020年08月28日
+ *  官网产品中心前端
+ */
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +18,7 @@
         
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Construction - WeBuilder Template</title>
+        <title>产品中心 - 上海廉容自动化技术有限公司赣州分公司</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -38,7 +49,12 @@
        
        
         <!--================Header Area =================-->
-        <header class="main_header_area">
+        <!--引入头部-->
+        <?php include 'header.php'; ?>
+
+        <!--引入导航-->
+        <?php include 'nev.php'; ?>
+        <!-- <header class="main_header_area">
             <div class="header_top_area">
                 <div class="container">
                     <div class="pull-left">
@@ -59,7 +75,7 @@
             <div class="main_menu_area">
                 <div class="container">
                     <nav class="navbar navbar-default">
-                        <!-- Brand and toggle get grouped for better mobile display -->
+                        
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -70,7 +86,7 @@
                             <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
                         </div>
 
-                        <!-- Collect the nav links, forms, and other content for toggling -->
+                     
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown submenu">
@@ -96,22 +112,19 @@
                                 <li><a href="#">Contact</a></li>
                                 <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li>
                             </ul>
-                        </div><!-- /.navbar-collapse -->
+                        </div>
                     </nav>
                 </div>
             </div>
-        </header>
+        </header> -->
         <!--================Header Area =================-->
         
         <!--================Banner Area =================-->
         <section class="banner_area">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h4>Project full width</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li class="active"><a href="#">Project full width 2 colum</a></li>
-                    </ul>
+                    <h4>产品中心</h4>
+                    
                 </div>
             </div>
         </section>
@@ -121,17 +134,17 @@
         <section class="our_project2_area project_grid_two">
            <div class="container">
                <div class="main_c_b_title">
-                    <h2>Our<br class="title_br">Projects</h2>
-                    <h6>Great & Awesome Works</h6>
+                    <h2>我们<br class="title_br">的产品</h2>
+                    <h6>服务创造价值、存在造就未来</h6>
                 </div>
                 <ul class="our_project_filter">
-                    <li class="active" data-filter="*"><a href="#">All</a></li>
-                    <li data-filter=".building"><a href="#">Buildings</a></li>
-                    <li data-filter=".interior"><a href="#">Interior</a></li>
-                    <li data-filter=".design"><a href="#">Design</a></li>
-                    <li data-filter=".isolation"><a href="#">Isolation</a></li>
+                    <li class="active" data-filter="*"><a href="#">全部</a></li>
+                    <li data-filter=".building"><a href="#">系统产品</a></li>
+                    <li data-filter=".interior"><a href="#">云控系统</a></li>
+                    <li data-filter=".design"><a href="#">自动化控制柜</a></li>
+                  <!--   <li data-filter=".isolation"><a href="#">Isolation</a></li>
                     <li data-filter=".plumbing"><a href="#">Plumbing</a></li>
-                    <li data-filter=".tiling"><a href="#">Tiling</a></li>
+                    <li data-filter=".tiling"><a href="#">Tiling</a></li> -->
                 </ul>
                 <div class="row our_project_details">
                     <div class="col-md-6 building isolation interior">
@@ -237,7 +250,13 @@
         <!--================End Get Quote Area =================-->
         
         <!--================Footer Area =================-->
-        <footer class="footer_area">
+        <!--引入版权所有-->
+
+        <?php include 'footer.php'; ?>
+
+
+
+        <!-- <footer class="footer_area">
             <div class="footer_widgets_area">
                 <div class="container">
                     <div class="row footer_widgets_inner">
@@ -325,12 +344,12 @@
             </div>
             <div class="footer_copy_right">
                 <div class="container">
-                    <h4><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <h4>
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></h4>
+</h4>
                 </div>
             </div>
-        </footer>
+        </footer> -->
         <!--================End Footer Area =================-->
         
         

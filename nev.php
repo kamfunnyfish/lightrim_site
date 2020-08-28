@@ -1,3 +1,14 @@
+<?php
+/**
+ * @copyright (C)2016-2020 Hnaoyun Inc.
+ * @author liujianqiang
+ * @email mrbrocade@163.com
+ * @date 2020年08月27日
+ *  官网导航  前端
+ */
+
+?>
+
  <!DOCTYPE html>
 <html>
 
@@ -24,21 +35,21 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#"><img src="img/index/lightrim-logo.png" alt="" width="200" height="55"></a>
+                            <a class="navbar-brand" href="index.php"><img src="img/index/lightrim-logo.png" alt="" width="200" height="55"></a>
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                              <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown submenu active">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">首页</a>
+                                    <a href="index.php" class="dropdown-toggle" ">首页</a>
                                     <!-- <ul class="dropdown-menu">
                                         <li><a href="#">Home 01</a></li>
                                         <li><a href="#">Home 02</a></li>
                                     </ul> -->
                                 </li>
                                 <li class="dropdown submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品中心</a>
+                                    <a href="project.php" class="dropdown-toggle" >产品中心</a>
                                     <!-- <ul class="dropdown-menu">
                                         <li><a href="#">Project Full Width</a></li>
                                         <li><a href="project-grid-three-column.html">Project Grid 01</a></li>
@@ -48,9 +59,9 @@
                                     </ul> -->
                                 </li>
                                 <li><a href="#">服务案例</a></li>
-                                <li><a href="#">公司简介</a></li>
-                                <li><a href="./news.html">新闻中心</a></li>
-                                <li><a href="#">联系我们</a></li>
+                                <li><a href="companyinfo.php">公司简介</a></li>
+                                <li><a href="news.php">新闻中心</a></li>
+                                <li><a href="contactus.php">联系我们</a></li>
                                 <!-- <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li> -->
                             </ul>
                         </div><!-- /.navbar-collapse -->
