@@ -1,3 +1,14 @@
+<?php
+/**
+ * @copyright (C)2016-2020 Hnaoyun Inc.
+ * @author liujianqiang
+ * @email mrbrocade@163.com
+ * @date 2020年08月28日
+ *  官网头部 框架 前端
+ */
+include 'config.php';
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -15,8 +26,8 @@
             <div class="header_top_area">
                 <div class="container">
                     <div class="pull-left">
-                        <a href="#"><i class="fa fa-phone"></i>400-1616728</a>
-                        <a href="#"><i class="fa fa-map-marker"></i>赣州市章贡区经济技术开发区迎宾大道宝福路38号赣州瑞嘉达电子有限公司三楼</a>
+                        <a href="#"><i class="fa fa-phone"></i><?php echo WEB_PHONE;?></a>
+                        <a href="#"><i class="fa fa-map-marker"></i><?php echo WEB_COMPANY_SITE;?></a>
                         <a href="#"><i class="glyphicon glyphicon-time"></i>08:00 AM - 17:30 PM</a>
                     </div>
                    <!-- 目前不需要的 

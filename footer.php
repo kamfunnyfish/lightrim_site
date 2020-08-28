@@ -6,7 +6,7 @@
  * @date 2020年08月28日
  *  官网框架文件  底部 前端
  */
-
+include 'config.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -46,7 +46,7 @@
                                             <img src="img/blog/recent-post/recent-1.png" alt="">
                                         </div> -->
                                         <div class="media-body">
-                                            <a href="#"><p>QQ：1366718626</p></a>
+                                            <a href="#"><p>QQ:<?php echo WEB_QQ;?></p></a>
                                         </div>
                                     </div>
                                     <div class="media">
@@ -54,7 +54,7 @@
                                             <img src="img/blog/recent-post/recent-2.png" alt="">
                                         </div> -->
                                         <div class="media-body">
-                                            <a href="#"><p>微信：1366718626</p></a>
+                                            <a href="#"><p>微信：<?php echo WEB_WECHAT;?></p></a>
                                         </div>
                                     </div>
                                     <div class="media">
@@ -79,7 +79,7 @@
                                             <i class="fa fa-map-marker"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>赣州市章贡区经济技术开发区迎宾大道宝福路38号赣州瑞嘉达电子有限公司三楼</p>
+                                            <p><?php echo WEB_COMPANY_SITE;?></p>
                                         </div>
                                     </div>
                                     <div class="media">
@@ -87,7 +87,7 @@
                                             <i class="fa fa-phone"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>400-1616728 </p>
+                                            <p><?php echo WEB_PHONE;?></p>
                                             <!-- <p> </p> -->
                                         </div>
                                     </div>
@@ -96,7 +96,7 @@
                                             <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>1366718626@qq.com</p>
+                                            <p><?php echo WEB_EMAIL;?></p>
                                         </div>
                                     </div>
                                     <div class="media">
@@ -104,7 +104,7 @@
                                             <i class="glyphicon glyphicon-globe"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>备案号码：沪ICP备16040000号​</p>
+                                            <p>备案号码：<?php echo WEB_ICP;?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -113,7 +113,7 @@
                         <div class="col-md-3 col-sm-6">
                             <aside class="f_widget give_us_widget">
                                 <h5>拨打我们的电话</h5>
-                                <h4>400-1616728</h4>
+                                <h4><?php echo WEB_PHONE;?></h4>
                                 <h5>或</h5>
                                 <a class="get_bg_btn" href="#">咨询客服</a>
                             </aside>
@@ -126,15 +126,15 @@
                     <div class="copy_right_inner">
                     	<div class="pull-left">
                     		<h4><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> 上海廉容自动化技术有限公司赣州分公司 
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> <?php echo WEB_INFO;?>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></h4>
                     	</div>
                     	<div class="pull-right">
                     		<ul class="footer_menu">
-                    			<li class="active"><a href="">首页</a></li>
+                    			<li class="active"><a href=""><?php echo WEB_INDEX;?></a></li>
                     			<li><a href="">使用条款</a></li>
                     			<li><a href="">免责声明</a></li>
-                    			<li><a href="">联系我们</a></li>
+                    			<li><a href=""><?php echo WEB_CONTACTUS;?></a></li>
                     		</ul>
                     	</div>
                     </div>

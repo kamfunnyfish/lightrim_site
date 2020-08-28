@@ -390,7 +390,7 @@
             <div class="container">
                 <div class="pull-left">
                     <h3>选择廉容自动化 </h3>
-                    <h4>今天就给我们打电话或者联系我们开始你的项目。.. </h4>
+                    <h4>今天就给我们打电话或者联系我们开始你的项目。 </h4>
                 </div>
                 <div class="pull-right">
                     <a class="get_btn_black" href="#">联系客服</a>

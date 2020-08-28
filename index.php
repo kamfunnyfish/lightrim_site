@@ -6,7 +6,7 @@
  * @date 2020年08月27日
  *  官网首页 前端
  */
-
+include 'config.php';
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +18,7 @@
         
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>上海廉容自动化技术有限公司赣州分公司</title>
+        <title><?php  echo WEB_INFO;?></title>
 
         <!-- Icon 顶部和底部矢量图 css  -->
         <link href="css/font-awesome.min.css" rel="stylesheet"> 

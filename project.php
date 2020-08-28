@@ -139,7 +139,7 @@
                 </div>
                 <ul class="our_project_filter">
                     <li class="active" data-filter="*"><a href="#">全部</a></li>
-                    <li data-filter=".building"><a href="#">系统产品</a></li>
+                    <li data-filter=".building"><a href="#">系列产品</a></li>
                     <li data-filter=".interior"><a href="#">云控系统</a></li>
                     <li data-filter=".design"><a href="#">自动化控制柜</a></li>
                   <!--   <li data-filter=".isolation"><a href="#">Isolation</a></li>
@@ -149,12 +149,12 @@
                 <div class="row our_project_details">
                     <div class="col-md-6 building isolation interior">
                         <div class="project_item">
-                            <img src="img/project/project-grid-two/project-g-two-1.jpg" alt="">
+                            <img src="img/project_new/廉容自动化电站云监控平台.png" alt="" width="650" height="550">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <a href="#"><h4>Jahanara Vila</h4></a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau-dantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
+                                        <a href="#"><h4>廉容自动化电站云控系统</h4></a>
+                                        <p>通过互联网（有线网络/4G网络）进行集中远程监管，实现电站运行的智能自主发电、智能告警、设备大数据趋势预测等，实现电站的无人值班，从而形成电力生产的规模化运营，降低运营成本，进一步提升电站发电量，增强设备管理能力，延长设备使用寿命，大大提高电站的盈利水平。</p>
                                         <a class="view_btn" href="#">View Project</a>
                                     </div>
                                 </div>
@@ -163,12 +163,18 @@
                     </div>
                     <div class="col-md-6 building isolation tiling design">
                         <div class="project_item">
-                            <img src="img/project/project-grid-two/project-g-two-2.jpg" alt="">
+                            <img src="img/project_new/水力发电远程自动化控制柜.jpg" alt="" width="650" height="550">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <a href="#"><h4>Jahanara Vila</h4></a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau-dantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
+                                        <a href="#"><h4>水力发电远程自动化控制柜</h4></a>
+                                        <p>技术平台
+1.程序主控制采用德国西门子工业可编程控制器（PLC控制器），安全可靠。
+2.励磁控制器采用32位嵌入式ARM微处理器，运算速度快，调节精度高，低功耗特性使得励磁控制安全稳定。
+3.调速器采用涡轮式步进电机机构，具有调节速度灵活可调，调节精度高。
+4.工业平板一体电脑做人机界面，全数字化仪表，清晰直观，全5线电阻触摸屏操作简单。
+5.远程数据同步可度可调，只要连接互联网，随时随地轻松了解电站运行情况，也可从容远程对电站机组进行调节控制。
+</p>
                                         <a class="view_btn" href="#">View Project</a>
                                     </div>
                                 </div>
@@ -240,10 +246,10 @@
         <section class="get_quote_area yellow_get_quote">
             <div class="container">
                 <div class="pull-left">
-                    <h4>Looking for a quality and affordable constructor for your next project?</h4>
+                    <h4>还在为你的水电站项目寻找服务和负担得起的设计师?</h4>
                 </div>
                 <div class="pull-right">
-                    <a class="get_btn_black" href="#">GET A QUOTE</a>
+                    <a class="get_btn_black" href="#">获取产品经理免费服务</a>
                 </div>
             </div>
         </section>

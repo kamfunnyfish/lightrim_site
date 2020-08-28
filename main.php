@@ -6,7 +6,7 @@
  * @date 2020年08月28日
  *  官网主体 前端
  */
-
+include 'config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

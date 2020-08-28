@@ -4,11 +4,10 @@
  * @author liujianqiang
  * @email mrbrocade@163.com
  * @date 2020年08月28日
- *  官网联系我们前端
+ *  官网联系我们 前端
  */
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -23,8 +22,6 @@
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/materialdesignicons.min.css" rel="stylesheet">
-
-        <!-- <link href="scss/_button.scss" rel="stylesheet"> -->
         
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -53,14 +50,12 @@
        
        
         <!--================Header Area =================-->
-        <!--引入头部-->
+         <!--引入头部-->
         <?php  include 'header.php'; ?>
 
-
-
-
-
-         <!-- <header class="main_header_area">
+         <!--引入导航-->
+        <?php  include 'nev.php'; ?>
+        <!-- <header class="main_header_area">
             <div class="header_top_area">
                 <div class="container">
                     <div class="pull-left">
@@ -77,13 +72,7 @@
                         </ul>
                     </div>
                 </div>
-            </div> -->
-
-
-             <!--引入导航-->
-        <?php  include 'nev.php'; ?>
-
-<!-- 
+            </div>
             <div class="main_menu_area">
                 <div class="container">
                     <nav class="navbar navbar-default">
@@ -128,15 +117,15 @@
                     </nav>
                 </div>
             </div>
-        </header> --> 
+        </header> -->
         <!--================Header Area =================-->
         
         <!--================Banner Area =================-->
         <section class="banner_area" style="background: url(img/banner/single-page-banner3.jpg); background-size: cover">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h4>联系我们</h4>
-                   
+                   <h4>联系我们</h4>
+                    
                 </div>
             </div>
         </section>
@@ -148,7 +137,7 @@
                 <div class="row blog_details_inner">
                     <div class="col-md-8">
                         
-                        <div class="comment_list">
+                         <div class="comment_list">
                             <h3>3  个留言</h3>
                             <div class="comment_list_inner">
                                 <div class="media">
@@ -185,6 +174,7 @@
                                     <!-- <a class="cm_reply" href="#"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a> -->
                                 </div>
                             </div>
+
                         </div>
                         <div class="comment_form_area">
                             <h3>留言</h3>
@@ -204,16 +194,156 @@
                             </form>
                         </div>
                     </div>
-                    
+                    <div class="col-md-4">
+                        <div class="sidebar_area">
+                            <aside class="f_widget address_widget" >
+                                <div class="f_w_title">
+                                    <h3 style="color: black">办公地址</h3>
+                                </div>
+                                <div class="address_w_inner">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <i class="fa fa-map-marker" style="color: black"></i>
+                                        </div>
+                                        <div class="media-body" >
+                                            <h4>赣州市章贡区经济技术开发区迎宾大道宝福路38号赣州瑞嘉达电子有限公司三楼</h4>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <i class="fa fa-phone" style="color: black"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>400-1616728</h4> 
+                                            <!-- <p> </p> -->
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <i class="fa fa-envelope" style="color: black"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>1366718626@qq.com</h4>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <i class="glyphicon glyphicon-globe " style="color: black"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>备案号码：沪ICP备16040000号​</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!--================End Blog Details Area =================-->
         
         <!--================Footer Area =================-->
-        <!--引入底部版权-->
-        <?php include 'footer.php'; ?>
 
+         <!--引入底部版权-->
+        <?php include 'footer.php'; ?>
+        
+        <!-- <footer class="footer_area">
+            <div class="footer_widgets_area">
+                <div class="container">
+                    <div class="row footer_widgets_inner">
+                        <div class="col-md-3 col-sm-6">
+                            <aside class="f_widget about_widget">
+                                <img src="img/footer-logo.png" alt="">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium. ed quia consequuntur magni dolores eos qui ratione.</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <aside class="f_widget recent_widget">
+                                <div class="f_w_title">
+                                    <h3>Recent Posts</h3>
+                                </div>
+                                <div class="recent_w_inner">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <img src="img/blog/recent-post/recent-1.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <a href="#"><p>The road to success is always under con-struction</p></a>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <img src="img/blog/recent-post/recent-2.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <a href="#"><p>The road to success is always under con-struction</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <aside class="f_widget address_widget">
+                                <div class="f_w_title">
+                                    <h3>Office Address</h3>
+                                </div>
+                                <div class="address_w_inner">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>1234 Cafficic, California, USA</p>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>(012) 3456789 </p>
+                                            <p>(012) 3456789 </p>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>info@domain.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <aside class="f_widget give_us_widget">
+                                <h5>Give Us A Call</h5>
+                                <h4>(012) 3456789</h4>
+                                <h5>or</h5>
+                                <a class="get_bg_btn" href="#">GET A QUOTE</a>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy_right">
+                <div class="container">
+                    <h4>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+</h4>
+                </div>
+            </div>
+        </footer> -->
+        <!--================End Footer Area =================-->
         
         
         
@@ -222,6 +352,34 @@
         
         
         
-      
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.2.4.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Rev slider js -->
+        <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="vendors/counterup/waypoints.min.js"></script>
+        <script src="vendors/counterup/jquery.counterup.min.js"></script>
+        <script src="vendors/flex-slider/jquery.flexslider-min.js"></script>
+        
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="js/gmaps.min.js"></script>
+        <!--Tweets-->
+        <script src="vendors/tweet/tweetie.min.js"></script>
+        <script src="vendors/tweet/script.js"></script>
+        
+        <script src="js/theme.js"></script>
     </body>
 </html>

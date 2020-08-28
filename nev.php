@@ -6,7 +6,7 @@
  * @date 2020年08月27日
  *  官网导航  前端
  */
-
+include 'config.php';
 ?>
 
  <!DOCTYPE html>
@@ -42,14 +42,14 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                              <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown submenu active">
-                                    <a href="index.php" class="dropdown-toggle" ">首页</a>
+                                    <a href="index.php" class="dropdown-toggle" "><?php echo WEB_INDEX;?></a>
                                     <!-- <ul class="dropdown-menu">
                                         <li><a href="#">Home 01</a></li>
                                         <li><a href="#">Home 02</a></li>
                                     </ul> -->
                                 </li>
                                 <li class="dropdown submenu">
-                                    <a href="project.php" class="dropdown-toggle" >产品中心</a>
+                                    <a href="project.php" class="dropdown-toggle" ><?php echo WEB_PROJECT;?></a>
                                     <!-- <ul class="dropdown-menu">
                                         <li><a href="#">Project Full Width</a></li>
                                         <li><a href="project-grid-three-column.html">Project Grid 01</a></li>
@@ -58,10 +58,10 @@
                                         <li><a href="project-single.html">Single Project</a></li>
                                     </ul> -->
                                 </li>
-                                <li><a href="#">服务案例</a></li>
-                                <li><a href="companyinfo.php">公司简介</a></li>
-                                <li><a href="news.php">新闻中心</a></li>
-                                <li><a href="contactus.php">联系我们</a></li>
+                                <li><a href="service.php"><?php echo WEB_SERVICE;?></a></li>
+                                <li><a href="companyinfo.php"><?php echo WEB_COMPANYINFO;?></a></li>
+                                <li><a href="news.php"><?php echo WEB_NEWS;?></a></li>
+                                <li><a href="contactus.php"><?php echo WEB_CONTACTUS;?></a></li>
                                 <!-- <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li> -->
                             </ul>
                         </div><!-- /.navbar-collapse -->
