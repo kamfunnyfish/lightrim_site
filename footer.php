@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright (C)2016-2020 Hnaoyun Inc.
+ * @copyright (C)2016-2020 
  * @author liujianqiang
  * @email mrbrocade@163.com
  * @date 2020年08月28日

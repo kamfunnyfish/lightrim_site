@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright (C)2016-2020 Hnaoyun Inc.
+ * @copyright (C)2016-2020
  * @author liujianqiang
  * @email mrbrocade@163.com
  * @date 2020年08月27日
@@ -12,7 +12,6 @@ include 'config.php';
  <!DOCTYPE html>
 <html>
 
-    
         <!-- Icon 顶部和底部矢量图 css  -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <!-- 顶部导航和轮播翻页效果 css -->
@@ -29,12 +28,12 @@ include 'config.php';
                     <nav class="navbar navbar-default">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
+                            <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                            </button>
+                            </button> -->
                             <a class="navbar-brand" href="index.php"><img src="img/index/lightrim-logo.png" alt="" width="200" height="55"></a>
                         </div>
 
@@ -60,7 +59,7 @@ include 'config.php';
                                 </li>
                                 <li><a href="service.php"><?php echo WEB_SERVICE;?></a></li>
                                 <li><a href="companyinfo.php"><?php echo WEB_COMPANYINFO;?></a></li>
-                                <li><a href="news.php"><?php echo WEB_NEWS;?></a></li>
+                                <li><a href="newslist.php"><?php echo WEB_NEWS;?></a></li>
                                 <li><a href="contactus.php"><?php echo WEB_CONTACTUS;?></a></li>
                                 <!-- <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li> -->
                             </ul>
